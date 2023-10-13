@@ -21,5 +21,8 @@ module.exports = {
     sourceType: 'module',
   },
   plugins: ['@typescript-eslint'],
-  rules: {},
+  // eslint-disable prettier/prettier
+  rules: {
+    '@typescript-eslint/no-unused-vars': 'off',
+  },
 };
