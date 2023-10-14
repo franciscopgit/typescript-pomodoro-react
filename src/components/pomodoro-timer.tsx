@@ -3,7 +3,8 @@ import { useInterval } from '../hooks/use-interval';
 // import { secondsToTime } from '../utils/seconds-to-time';
 import { Button } from './botton';
 import { Timer } from './timer';
-import { secondsToTime } from '../utils/seconds-to-time';
+import { secondsToMinutes } from '../utils/seconds-to-minutes';
+import { secondsToTime } from '../utils/seconds-to-Time';
 // eslint-disable-next-line @typescript-eslint/no-var-requires
 const bellStart = require('../sounds/bell-start.mp3');
 // eslint-disable-next-line @typescript-eslint/no-var-requires
